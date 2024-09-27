@@ -36,4 +36,4 @@
 
 
 
-            console.log(typeof anotherid);
+            console.log(typeof score);
