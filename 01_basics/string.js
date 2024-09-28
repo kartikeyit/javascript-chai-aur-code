@@ -19,3 +19,21 @@ console.log(gamename.indexOf('t'));
 
 const newstring = gamename.substring(0,4)
 console.log(newstring);
+
+
+const anotherstring = gamename.slice(-8, 4)
+console.log(anotherstring);
+
+
+const newstringone = "  kartikey   "
+console.log(newstringone);
+console.log(newstringone.trim());
+
+
+const url = "https://hitesh.com/hitesh%20chaudhary"
+console.log(url.replace('%20', '-'));
+
+console.log(url.includes('sundar'))
+
+
+console.log(gamename.split('-'));
